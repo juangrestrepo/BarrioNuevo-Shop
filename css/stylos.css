@@ -1,0 +1,308 @@
+*{
+	margin:0;
+	padding:0; 
+	
+}
+.titulo, .titulo_admin{
+	font-family:"Ruda";
+	font-size: 5em;
+	text-align: center;
+	color: black;
+	margin: 20px;
+	float: left;
+	width: 50%;
+}
+.titulo_admin{
+	height: 60px;
+}
+.subtitulo{
+	text-decoration: none;
+	font-family: "Raleway";
+	color:#575757;
+	font-size: 3em;
+	letter-spacing: 2px;
+	font-weight:200;
+	text-align: left;
+	}
+.subtitulo2{
+	text-decoration: none;
+	font-family: "Raleway";
+	color:#575757;
+	font-size: 3em;
+	letter-spacing: 2px;
+	font-weight:200;
+	text-align: center;
+	}
+a.subtitulo:hover{
+	color: black;
+}
+.eliminado{
+	font-family: "Oswald";
+	text-align: center;
+	font-size: 3em;
+	color: rgb(236, 236, 236);
+}
+
+.barra{
+	text-decoration: none;
+	cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border: none;
+    color: #DADADA;
+}
+.barra:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+
+}
+nav li{
+	display: inline-block;
+	margin: right;
+	border-radius: 1em;
+	border-left: 1em;
+	color: black;
+	
+}
+
+.formulario{
+	font-size: 1.2em;
+	font-family: "Raleway";
+	color:black;
+	font-weight: 200;
+	letter-spacing: 2px;
+	line-height: 50%;
+	text-align: center;
+}
+
+
+.headi{
+	overflow-y: auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.headi:hover{
+	color: white;
+}
+.cedulaNoExiste{
+	overflow-y: auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 60px;
+    font-family: "Raleway";
+}
+ ul {
+  padding: 0;
+
+}
+
+li {
+  color: white;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 16px 20px;
+}
+
+a{
+	color: #B6B6B6;
+	text-decoration: none;
+}
+
+.current,a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.main .articles article{
+	padding: 20px;
+	margin: 10px 0px;
+	font-family: Dosis;
+}
+
+.quienes{
+	margin: 20px;
+	font-weight: 200;
+	font-family: 'Dosis';
+	font-size: 2.5em;
+	color: black;
+	width: 80%;
+}
+
+.quienes2{
+	margin: 20px;
+	font-weight: 200;
+	font-family: 'Dosis';
+	font-size: 2.5em;
+	color: white;
+	width: 100%;
+	border: solid transparent;
+	border-left-width: 140px;
+	border-right-width: 1px;
+}
+.site-footer{
+	color: white ;
+	height: 800px;
+	background: black;
+	font-family: "Dosis";
+	font-weight: 200;
+	font-size: 3.5em;
+	text-align: center;
+
+}
+.footer{
+	color: white ;
+	height: 250px;
+	background: black;
+	font-family: "Dosis";
+	font-weight: 200;
+	font-size: 3.5em;
+	text-align: center;
+}
+.fb{
+	width: 90px;
+}
+.form{
+	float: right;
+	width: 30%;
+	padding: 20px;
+	margin-top: 10px; 
+	display: block;
+   margin: 10px 0;
+}
+.registrar:hover{
+	color: black;
+}
+.tituregistro{
+	font-family: Raleway;
+	font-size: 4em;
+}
+.formu{
+	font-family: Raleway;
+	text-align: center;
+
+}
+.mapa{
+	font-family: Raleway;
+}
+.black-btn{
+	background: #000;
+	background-color: black;
+}
+label{
+	display: inline-block;
+  	width: 120px;
+  	text-align: right;
+}
+.inicio{
+	padding-left: 1000px;
+}
+.cierreSesion{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-right: 400px;
+	margin-top: 60px;
+}
+.contacto{
+	font-family: Dosis;
+	font-weight: 200;
+	font-size: 1.8em;
+}
+.welcome{
+	font-family: Raleway;
+	font-size: 1.3em;
+	text-align: center;
+}
+.busqueda{
+	font-family: Raleway;
+	font-size: 2em;
+	text-align: center;
+}
+.tabla{
+	background-color: black;
+	width: 100%;
+}
+.formularioEditar{
+	font-family: Raleway;
+	text-align: center;
+	font-size: 1.3em;
+}
+.tituEditar{
+	text-align: center;
+	width: 100%;
+	font-family: Raleway;
+	background-color: black;
+	color: white;
+}
+.inventario{
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+
+}
+.busqueda_personas{
+	margin-left: 585px;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 60px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.formularioInventario{
+	font-family: "Roboto condensed";
+	text-align: right;
+	font-size: 1.3em;
+	width: 1200px;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+	text-align: left;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 12px 10px 12px;
+    cursor: pointer;
+}
+.ver_pedido{
+	width: 60%;
+}
+.producto{
+	display: inline-block;
+	width: 30%;
+
+}
+.imagen{
+	width: 300px;
+	height: 220px;
+}
+body{
+	background: linear-gradient(white, #DADADA);
+}
+.quienes_somos{
+	width: 460px;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+.quienes_somos2{
+	width: 480px;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.fila2{
+	background-color: black;
+	color: white;
+}
